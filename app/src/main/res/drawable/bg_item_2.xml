@@ -4,8 +4,8 @@
         <shape>
             <solid android:color="#EFEEEE"/>
             <corners
-                android:topLeftRadius="18dp"
-                android:bottomLeftRadius="18dp"
+                android:topLeftRadius="14dp"
+                android:bottomLeftRadius="14dp"
                 android:topRightRadius="12dp"
                 android:bottomRightRadius="12dp"
                 />
