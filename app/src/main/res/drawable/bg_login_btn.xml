@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:exitFadeDuration="@integer/material_motion_duration_short_2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#0389C8"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/primary_blue"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+</selector>
