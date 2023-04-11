@@ -50,7 +50,7 @@
             android:layout_height="170dp"
             android:layout_gravity="center"
             android:src="@drawable/ic_image"
-            app:tint="#939393" />
+            />
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
