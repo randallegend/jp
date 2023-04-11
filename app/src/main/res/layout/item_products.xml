@@ -27,6 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+
         android:textStyle="bold"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
@@ -40,7 +41,7 @@
     <TextView
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/textView"
+        android:id="@+id/priceTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Price"
@@ -48,13 +49,14 @@
         app:layout_constraintTop_toBottomOf="@+id/productTxt" />
 
     <TextView
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:id="@+id/stockTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:text="Stocks"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/priceTxt" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
